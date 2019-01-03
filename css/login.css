@@ -1,0 +1,190 @@
+
+body {
+    font-family: 'Muli', sans-serif;
+    background: url(../images/CAFE.jpg)no-repeat center 0px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover; 
+	background-size:cover;
+    background-attachment: fixed;
+} 
+/*-- main --*/ 
+.agileinfo-row {
+    width: 65%;
+    margin:0 auto;
+	text-align:center;
+}
+
+/*--header start here--*/
+.w3ls-header {
+    padding: 0em 0 0;
+}
+.icon1 {
+    margin: 0 0 2em;
+    border: 1px solid #525252;
+    padding: .7em 0em;
+    background:rgba(255, 255, 255, 0.22);
+    border-radius: 26px;
+}
+.wthree li {
+    display: inline-block;
+}
+a {
+    color: #585858;
+    margin: 0em;
+}
+a:hover {
+    color: #ff4f81;
+}
+.bottom {
+    margin: 3em 0 0;
+}
+.header-main {
+    /*--padding: 4em 4em 2.5em;--*/
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+	margin:9em auto 0;
+}
+.header-main h2 {
+    font-size: 1.6em;
+    line-height: 1.6em;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 60px;
+    text-transform: capitalize;
+}
+.sign-up {
+    margin: 2em 0;
+}
+.header-left {
+  background: #fff;
+  padding: 0px;
+}
+.sign-up h2 {
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    background: #fbbc05;
+    width: 40px;
+    height: 40px;
+    line-height: 1.9em;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+::-webkit-input-placeholder{
+    color: rgb(0, 0, 0)!important;
+}
+.header-left-bottom input[type="text"]{
+    outline: none;
+    font-size: 15px;
+      color: rgb(0, 0, 0);
+    border:none;
+      width: 90%;
+    display: inline-block;
+    background: transparent;
+      font-family: 'Muli', sans-serif;
+      text-align: center;
+      letter-spacing: 2px;
+  }
+.header-left-bottom input[type="email"] {
+    outline: none;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+	border:none;
+    width: 90%;
+    display: inline-block;
+    background: transparent;
+	font-family: 'Muli', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+.header-left-bottom input[type="password"]{
+  outline: none;
+  font-size: 15px;
+    color: rgb(0, 0, 0);
+  border:none;
+    width: 90%;
+  display: inline-block;
+  background: transparent;
+	font-family: 'Muli', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.header-left-bottom input[type="submit"] {
+    background: #086648;
+    color: #FFF;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: .5em 2em;
+    letter-spacing: 1px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+    border-radius: 25px;
+}
+.header-left-bottom input[type="reset"] {
+    background: #ff0000;
+    color: #FFF;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: .5em 2em;
+    letter-spacing: 1px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+	font-family: 'Muli', sans-serif;
+	width: 100%;
+    border-radius: 25px;
+}
+
+
+
+/*-- agileits --*/
+.header-left-bottom p {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0 0;
+    letter-spacing: 1px;
+}
+.header-left-bottom p a {
+    font-size: 15px;
+    color: #000000;
+}
+.header-left-bottom p a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 26em;
+    color: rgb(0, 0, 0);
+    line-height: 1.3em;
+    letter-spacing: 10px;
+}
+.cpy-right  {
+    background-color: rgb(255, 255, 255);
+        margin-top: 10cm;
+        padding-top: 1cm;
+        padding-bottom: 1cm;
+          color: rgb(0, 0, 0);
+          font-size: 1em;
+          text-align: center;
+      }
